@@ -125,3 +125,8 @@ body{
 #prod-management{
     display: none;
 }
+/* portfolio */
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
