@@ -24,3 +24,8 @@ $("#prodImg").click(function(){
     $("#prodText").slideDown('1500').hide('1000');
     $("#prod-management").show('1500');
 });
+$("#prod-management").click(function(){
+    $("#prod-management").slideUp('1500');
+    $("#prodImg").slideDown('1500');
+    $("#prodText").slideDown('1500');
+});
