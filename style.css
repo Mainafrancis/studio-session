@@ -116,3 +116,12 @@ body{
 #prodText{
     margin-top: 10px;
 }
+#development{
+    display: none;
+}
+#design{
+    display: none;
+}
+#prod-management{
+    display: none;
+}
