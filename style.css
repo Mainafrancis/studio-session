@@ -157,3 +157,18 @@ body{
     background-repeat: no-repeat;
     color: white;
 }
+.contacts h3{
+    position: relative;
+    top: 30px;
+    margin-bottom: 40px;
+}
+.text{
+    margin-bottom: 20px;
+}
+.contact-over lay{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.form-control{
+    background-color: #66000000;
+    color: #fff;
+}
