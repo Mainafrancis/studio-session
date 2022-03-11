@@ -172,3 +172,17 @@ body{
     background-color: #66000000;
     color: #fff;
 }
+.name{
+    margin-right: 5px;
+}
+.email{
+    margin-right: 5px;
+}
+.input.error{
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+textarea::placeholder{
+    color: #fff;
+}
