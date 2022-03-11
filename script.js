@@ -35,3 +35,17 @@ $('.portImg').hover(function(){
 }, function(){
         $('.porttext',this).slideToggle('slow');   
 });
+// contact
+$("form#form").on('submit',function(event){
+    event.preventDefault();
+    var name = $("input#name").val();
+    var email = $("input#email").val();
+    var message = $("textarea#message").val();
+     
+    if ($("input#name").val() && $("input#email").val()){
+        alert ("Hey" + name + ", Thanks for raching out to us");
+    }
+    else{
+        alert ("Please provide your correct name and email!")
+    }
+})
