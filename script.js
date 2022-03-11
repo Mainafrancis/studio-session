@@ -48,4 +48,6 @@ $("form#form").on('submit',function(event){
     else{
         alert ("Please provide your correct name and email!")
     }
-})
+});
+
+
