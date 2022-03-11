@@ -9,3 +9,13 @@ $("#design").click(function(){
     $("#desImg").slideDown('1500');
     $("#desText").slideDown('1500');
 });
+$("#devImg").click(function(){
+    $("#devImg").slideDown('1500').hide('1000');
+    $("#devText").slideDown('1500').hide('1000');
+    $("#development").show('1500');
+});
+$("#development").click(function(){
+    $("#development").slideUp('1500');
+    $("#devImg").slideDown('1500');
+    $("#devText").slideDown('1500');
+});
