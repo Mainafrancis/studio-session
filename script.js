@@ -19,3 +19,8 @@ $("#development").click(function(){
     $("#devImg").slideDown('1500');
     $("#devText").slideDown('1500');
 });
+$("#prodImg").click(function(){
+    $("#prodImg").slideDown('1500').hide('1000');
+    $("#prodText").slideDown('1500').hide('1000');
+    $("#prod-management").show('1500');
+});
