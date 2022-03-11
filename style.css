@@ -58,3 +58,14 @@ body{
         transform: translateY(-54px);
     }
 }
+/* about page */
+.about{
+    margin-bottom: 70px;
+}
+.about h3{
+    margin-top: 30px;
+    padding-bottom: 38px;
+}
+.about p{
+    margin-bottom: 50px;
+}
