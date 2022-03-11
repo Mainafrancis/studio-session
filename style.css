@@ -104,3 +104,15 @@ body{
     padding-bottom: 38px;
     font-size: 20px;
 }
+.what-we-do .p-image{
+    padding-top: 10px;
+}
+#devText{
+    margin-top: 10px;
+}
+#desText{
+    margin-top: 10px;
+}
+#prodText{
+    margin-top: 10px;
+}
