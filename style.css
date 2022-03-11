@@ -69,3 +69,21 @@ body{
 .about p{
     margin-bottom: 50px;
 }
+/* service page */
+.services{
+    background-image: url(img/assets/backgrounds/s_image.jpg);
+    height: 280px;
+    color: #fff;
+    background-size: cover;
+}
+.services h3{
+    position: relative;
+    top: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 38px;
+}
+.services p{
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+}
