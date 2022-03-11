@@ -29,3 +29,9 @@ $("#prod-management").click(function(){
     $("#prodImg").slideDown('1500');
     $("#prodText").slideDown('1500');
 });
+//   portfolio
+$('.portImg').hover(function(){
+    $('.porttext',this).slideToggle('slow');
+}, function(){
+        $('.porttext',this).slideToggle('slow');   
+});
