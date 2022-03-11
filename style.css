@@ -130,3 +130,8 @@ body{
     max-width: 100%;
     height: auto;
 }
+.portImg{
+    float: right;
+    position: relative;
+    margin: 5px;
+}
