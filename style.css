@@ -87,3 +87,7 @@ body{
     top: 20px;
     margin-bottom: 50px;
 }
+.services-overlay{
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 280px;
+}
