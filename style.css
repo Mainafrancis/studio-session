@@ -39,3 +39,22 @@ body{
     background-repeat: no-repeat;
     height: 100%;
 }
+#mouse-click{
+    padding-top: 22px;
+    margin-top: 10%;
+    padding-bottom: 30px;
+}
+#mouse-click{
+    animation: bounce 3s infinite;
+}
+@keyframes mouse-click{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-55px);
+    }
+    60%{
+        transform: translateY(-54px);
+    }
+}
