@@ -1,192 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <script src="js/script.js"></script>
-    <title>Studio session</title>
-</head>
-<body>
-    <!-- landing page -->
-       <div class="container-fluid">
-           <div class="over lay">
-               <div class="jumbotron jumbotron-fluid">
-                    <img src="img/assets/logo/logo.png" alt="delani logo">
-                    <h1 class="display-1 text-center text-white header-text">WELCOME</h1>
-                    <h2 class="display-3 text text-center text-white header-text">TO DELANI STUDIO</h2>
-                    <p class="lead text-center text-white header-text2">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-                    <a href="#about"><img src="img/assets/mouse_click.png" class="mx-auto d-block mouse" alt="mouseclick" id="mouse-click"></a>
-               </div>
-           </div>
-       </div>
-
-       <!-- About page -->
-         <div class="about" id="about">
-             <h3 class="display-4 text-center about-text">ABOUT US</h3>
-             <p class="text-center about-text1">When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are intergrated, interactive and agile.<br>Our approach unifies design development and product management to create exceptional products<br>We start each project by understanding your business goals, the user's needs and the product requirements.<br>Then we help translate them into effective and elegant solution</p>
-         </div>
-
-         <!-- service page -->
-         <div class="services">
-             <div class="services-ocer-lay">
-                 <h3 class="display-4 text-center services-text"></h3>
-                 <p class="text-center services-text1">Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your vision<br>The outcome of this scoping session is proposal or high-level statement of work.Based on your requirements, we can provide a complete offering or just the pieces you need.<br></p>
-             </div>
-         </div>
-
-         <!-- what we do -->
-         <div class="what-we-do">
-             <h3 class="display-4 text-center text-center">WHAT WE DO</h3>
-        <div class="row">
-            <div class="col-md-4">
-                <div id="design-image">
-                    <img src="img/assets/services_icons/design_icon.png" alt="DESIGN" id="desImg">
-                    <p id="desText">DESIGN</p>
-                    <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing</p>
-                    <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed</p>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/mailchimp.js"></script>
+    </head>
+    <body>
+        <!--Landing page-->
+            <div class="container-fluid">
+                <div class="overlay">
+                    <div class="jumbotron jumbotron-fluid ">
+                        <img src="img/assets/logo/logo.png" class="mx-auto d-block" alt="delani logo">
+                        <h1 class="display-1 text-center text-white header-text">WELCOME</h1>
+                        <h2 class="display-3 text text-center text-white header-text">TO DELANI STUDIO</h2>
+                        <p class="lead text-center text-white header-text2 ">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                        <a href="#about"><img src="img/assets/mouse_click.png" class="mx-auto d-block mouse" alt="mouseclick" id="mouse-click"></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div id="development-image">
-                    <!-- <img src="img/assets/services_icons/design_icon.png" id="devImage"></img> -->
-                      <img src="img/assets/services_icons/dev_icon.png" alt="DEVELOPMENT" id="devImg"></img>
-                      <p id="devText">DEVELOPMENT</p>
-                </div>
-                <div id="development">
-                    <h4 class="title">DEVELOPMENT</h4>
-                    <p>All engineers are fluent in the latest enterprise, mobile and web development technologies</p>
-                    <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming</p>            
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div id="product-management-image">
-                    <img src="img/assets/services_icons/product_icon.png" alt="product management" id="prodImg">
-                    <p id="prodText">PRODUCT MANAGEMENT</p>
-                </div>
-                <div id="prod-management">
-                    <h4 class="title">PRODUCT MANAGEMENT</h4>
-                    <p>Planning and development is iteractive. Because we are constantly coding and testing, the products we build are always ready to go live</p>
-                    <p>This iterative process allows for changes as business requirements evolve</p>
-                </div>
-            </div>
-         </div>     
-        </div>
-        <!-- portfolo section -->
-        <div class="portfolio container-fluid">
-            <br>
-            <h3 class="display-4 text-center portHead">PORTFOLIO</h3>
-            <div class="col-md-12 mx-auto">
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2">
-                        <div class="portImg">
-                            <img src="img/assets/portfolio/work4.jpg" alt="portfolio-images" class="image img-fluid">  
+                <!--About page-->
+                    <div class="about" id="about">
+                        <h3 class=" display-4 text-center about-text">ABOUT US</h3>
+                        <p class="text-center about-text1">When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are intergrated, interactive and agile.<br>Our approach unifies design development and product management to create exceptional products.<br>We start each project by understanding your business goals, the user's needs and the product requirements.<br>Then we help translate them into effective and elegant solutions.</p>
+                    </div>
+                    <!--Services page-->
+                    <div class="services">
+                            <div class="services-overlay">
+                                <h3 class=" display-4 text-center services-text">SERVICES</h3>
+                                <p class="text-center services-text1">Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision<br>The outcome of this scoping session is proposal or high-level statement of work.<br>Based on your requirements, we can provide a complet offering or just the pieces you need.</p>
                             </div>
-                                  <div class="porttext" style="display:none">BLVCK STUDIO</div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="portImg">
-                    <img src="img/assets/portfolio/work3.jpg" alt="portfolio-images" class="image img-fluid">
-                </div>
-                      <div class="porttext" style="display:none">ONTARIO</div>
-            </div>
-        </div>
-    </div>
-        <div class="col-md-2">
-            <div class="portImg">
-                <img src="img/assets/portfolio/work2.jpg" alt="portfolio-images" class="image img-fluid">
-            </div>
-                  <div class="porttext" style="display:none">WARM</div>
-        </div>
-        <div class="col-md-2">
-            <div class="portImg">
-                <img src="img/assets/portfolio/work1.jpg" alt="portfolio-images" class="image img-fluid">
-            </div>
-                  <div class="porttext" style="display:none">JIM WARREN</div>
-        </div>
-              <div class="col-md-2"></div>
-    </div>    
-     <br>
-     <br> 
-         <div class="row">
-             <div class="col-md-2"></div>
-             <div class="col-md-2">
-                 <div class="portImg">
-                     <img src="img/assets/portfolio/work5.jpg" alt="portfolio-images" class="image img-fluid">
-                 </div>
-                      <div class="porttext" style="display:none">GOOD DAY</div>
-             </div>
-         </div>
-          <div class="col-md-2">
-              <div class="portImg">
-                  <img src="img/assets/portfolio/work6.jpg" alt="portfolio-images" class="image img-flui">
-              </div>
-                 <div class="porttext" style="display:none">ELEMENTS</div>
-          </div>
-              <div class="col-md-2">
-                  <div class="portImg">
-                      <img src="img/assets/portfolio/work7.jpg" alt="portfolio-images" class="image img-fluid">
-                  </div>
-                       <div class="porttext" style="display:none">BURNED</div>
-              </div>
-                 <div class="col-md-2">
-                     <div class="portImg">
-                         <img src="img/assets/portfolio/work8.jpg" alt="portfolio-images" class="image img-fluid">
-                     </div>
-                          <div class="porttext" style="display:none">GIRAFFE</div>
-                 </div>
-                     <div class="col-md-2"></div>
-            </div> 
-            <br>
-        </div>
-        <!-- contact us -->
-        <div class="contacts">
-            <div class="contact-over lay"></div>
-            <h3 class="display-4 text-center portHead">CONTACT US</h3>
-            <div class="col-md-12 input">
-                <form id="form">
+                    <!--What we do-->
+                    <div class="what-we-do">
+                        <h3 class="display-4 text-center text-center">WHAT WE DO</h3>
                     <div class="row">
-                        <div class="col-md-2 form"></div>
-                        <input class="col-md-4 form-control name" type="text" id="name" name="name" placeholder="Name" required>
-                        <br>
-                        <br>
-                        <input class="col-md-4 form-control email" type="email" id="email" name="email" placeholder="Email" required>
-                        <div class="col-md-2"></div>
+                        <div class="col-md-4">
+                            <div id="design-image">
+                                <img src="img/assets/services_icons/design_icon.png" alt="DESIGN" id="desImg">
+                                <p id="desText">DESIGN</p>
+                            </div>
+                            <div id="design">
+                                <h4 class="title">DESIGN</h3>
+                                <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+                                <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="development-image">
+                               <!-- <img onclick="toggleDev()" src="/img/assets/services_icons/dev_icon.png" id="devImage"></img> -->   
+                                <img src="img/assets/services_icons/dev_icon.png" alt="DEVELOPMENT" id="devImg"></img>                          
+                                <p id="devText">DEVELOPMENT</p>
+                            </div>
+                            <div id="development">
+                                <h4 class="title">DEVELOPMENT</h3>
+                                <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+                                <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="product-management-image">
+                                <img src="img/assets/services_icons/product_icon.png" alt="product management" id="prodImg">
+                                <p id="prodText">PRODUCT MANAGEMENT</p>
+                            </div>
+                            <div id="prod-management">
+                                <h4 class="title">PRODUCT MANAGEMENT</h3>
+                                <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                                <p>This iterative process allows for changes as business requirements evolve.</p>
+                            </div>
+                            <br>
+                        </div>
                     </div>
-                    <div class="row input">
-                        <div class="col-md-2"></div>
-                        <textarea class="form-control col-md-8 text" rows="12" name="message" id="message" placeholder="Your message here"></textarea>
-                        <div class="col-md-2"></div>
                     </div>
-                    <br>
-                    <button class="btn btn-success mx-auto d-block submit" id="okButton" type="submit">Submit</button>
-                    <br>
-                    <br>
-                </form>
-            </div>
-        </div>
-        <br>
-        <br>
-        <!-- socials and footer -->
-        <div class="social mx-auto text-center">
-            <div class="col-md-2"></div>
-            <img src="img/assets/social_icons/twitter.png" alt="">
-            <img src="img/assets/social_icons/dribble.png" alt="">
-            <img src="img/assets/social_icons/facebook.png" alt="">
-            <img src="img/assets/social_icons/g_plus.png" alt="">
-            <img src="img/assets/social_icons/skype.png" alt="">
-            <img src="img/assets/social_icons/stumble_upon.png" alt="">
-            <img src="img/assets/social_icons/behance.png" alt="">
-            <img src="img/assets/social_icons/pinterest.png" alt="">
-            <img src="img/assets/social_icons/flickr.png" alt="">
-        </div>
-        <br>
-        <footer class="text-center">Delani Studio <br> 2021</footer>
-    </div>    
-</body>
+                    <!--portfolio section-->
+                    <div class="portfolio container-fluid">
+                        <br>
+                        <h3 class=" display-4 text-center portHead">PORTFOLIO</h3>
+                        <div class="col-md-12 mx-auto">
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-2">
+                                    <div class="portImg">
+                                        <img src="img/assets/portfolio/work4.jpg" alt="portfolio-images" class="image img-fluid">
+                                        <div>
+                                            <div class="porttext" style="display:none">BLVCK STUDIO</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="portImg">
+                                        <img src="img/assets/portfolio/work3.jpg" alt="portfolio-images" class="image img-fluid">
+                                        <div>
+                                            <div class="porttext" style="display:none">ONTARIO</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="portImg">
+                                        <img src="img/assets/portfolio/work2.jpg" alt="portfolio-images" class="image img-fluid">
+                                        <div>
+                                            <div class="porttext" style="display:none">WARM</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="portImg">
+                                        <img src="img/assets/portfolio/work1.jpg" alt="portfolio-images" class="image img-fluid">
+                                        <div>
+                                            <div class="porttext" style="display:none">JIM WARREN</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-2">
+                                    <div class="portImg">
+                                        <img src="img/assets/portfolio/work5.jpg" alt="portfolio-images" class="image img-fluid">
+                                        <div>
+                                            <div class="porttext" style="display:none">GOOD DAY</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="portImg">
+                                        <img src="img/assets/portfolio/work6.jpg" alt="portfolio-images" class="image img-fluid">
+                                        <div>
+                                            <div class="porttext" style="display:none">ELEMENTS</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="portImg">
+                                        <img src="img/assets/portfolio/work7.jpg" alt="portfolio-images" class="image img-fluid">
+                                        <div>
+                                            <div class="porttext" style="display:none">BURNED</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="portImg">
+                                        <img src="img/assets/portfolio/work8.jpg" alt="portfolio-images" class="image img-fluid">
+                                        <div>
+                                            <div class="porttext" style="display:none">GIRAFFE</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <!--Contact us-->
+                    <div class="contacts">
+                        <div class="contact-overlay">
+                            <h3 class=" display-4 text-center portHead">CONTACT US</h3>
+                            <div class="col-md-12 input">
+                                <form id="form">
+                                    <div class="row">
+                                        <div class="col-md-2 form"></div>
+                                        <input class="col-md-4 form-control name" type="text" id="name" name="name" placeholder="Name"
+                                        required>
+                                        <br>
+                                        <br>
+                                        <input class="col-md-4 form-control email" type="email" id="email" name="email" placeholder="Email"
+                                        required>
+                                        <div class="col-md-2"></div>
+                                    </div>
+                                    <div class="row input">
+                                        <div class="col-md-2"></div>
+                                        <textarea class="form-control col-md-8 text" rows="12" name="message" id="message" placeholder="Your message here"></textarea>
+                                        <div class="col-md-2"></div>
+                                    </div>
+                                    <br>
+                                    <button class="btn btn-success mx-auto d-block submit" id="okButton" type="submit">Submit</button>
+                                    <br>
+                                    <br>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <!--Socials and footer-->
+                <div class="social mx-auto text-center">
+                    <div class="col-md-2"></div>
+                    <img src="img/assets/social_icons/twitter.png">
+                    <img src="img/assets/social_icons/dribble.png">
+                    <img src="img/assets/social_icons/facebook.png">
+                    <img src="img/assets/social_icons/g_plus.png">
+                    <img src="img/assets/social_icons/skype.png">
+                    <img src="img/assets/social_icons/stumble_upon.png">
+                    <img src="img/assets/social_icons/behance.png">
+                    <img src="img/assets/social_icons/pinterest.png">
+                    <img src="img/assets/social_icons/flickr.png">
+                </div>
+                <br>
+                <footer class="text-center">Delani Studio <br> 2021</footer>
+            </div>                  
+    </body>
 </html>

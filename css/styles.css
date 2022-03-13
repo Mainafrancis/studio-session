@@ -2,7 +2,7 @@
 html{
     scroll-behavior: smooth;
 }
-*{
+* {
     box-sizing: border-box;
 }
 body{
@@ -10,16 +10,16 @@ body{
     padding: 0;
     height: 100%;
 }
-/* landing page */
+/*Landing page*/
 .container-fluid{
     margin: 0;
     padding: 0;
 }
-.over lay{
-    background-color: rgba(0, 0, 0, 0.6);
+.overlay{
+    background-color:rgba(0, 0, 0, 0.6);
     height: 668px;
 }
-.overlay >img, header-tet{
+.overlay >img, header-text{
     position: relative;
     top: 33%;
 }
@@ -27,13 +27,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .header-text2{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', serif;
 }
 .mouse{
     margin-top: 330px;
 }
 .jumbotron-fluid{
-    background-image: url(img/assets/backgrounds/h_img.jpg);
+    background-image: url(../img/assets/backgrounds/h_img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,9 +58,10 @@ body{
         transform: translateY(-54px);
     }
 }
-/* about page */
+/*about page*/
 .about{
     margin-bottom: 70px;
+    
 }
 .about h3{
     margin-top: 30px;
@@ -69,29 +70,29 @@ body{
 .about p{
     margin-bottom: 50px;
 }
-/* service page */
+/*Services section*/
 .services{
-    background-image: url(img/assets/backgrounds/s_image.jpg);
+    background-image: url(../img/assets/backgrounds/s_image.jpg);
     height: 280px;
     color: #fff;
     background-size: cover;
 }
 .services h3{
     position: relative;
-    top: 40px;
+    top:40px;
     margin-bottom: 10px;
     padding-bottom: 38px;
 }
 .services p{
     position: relative;
-    top: 20px;
+    top:20px;
     margin-bottom: 50px;
 }
 .services-overlay{
     background-color: rgba(0, 0, 0, 0.315);
     height: 280px;
 }
-/* what we do */
+/*What we do*/
 .what-we-do{
     margin-top: 30px;
     text-align: center;
@@ -125,20 +126,20 @@ body{
 #prod-management{
     display: none;
 }
-/* portfolio */
+/*portfolio*/
 .img-fluid{
     max-width: 100%;
     height: auto;
 }
 .portImg{
     float: right;
-    position: relative;
+    position:relative;
     margin: 5px;
 }
 .portImg .porttext{
     display: none;
     opacity: 1;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color:rgba(255, 255, 255, 0.6);
     width: auto;
     position: absolute;
     bottom: 0;
@@ -149,9 +150,9 @@ body{
     padding: 30px;
     height: 100%;
 }
-/* contact us */
-.contacts{
-    background-image: url(img/assets/backgrounds/c_image.jpg);
+/*contact us*/
+.contacts{ 
+    background-image: url(../img/assets/backgrounds/c_image.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -165,7 +166,7 @@ body{
 .text{
     margin-bottom: 20px;
 }
-.contact-over lay{
+.contact-overlay{
     background-color: rgba(0, 0, 0, 0.7);
 }
 .form-control{
@@ -178,17 +179,18 @@ body{
 .email{
     margin-right: 5px;
 }
-.input.error{
+input.error{
     border: 1px dashed red;
     font-weight: 300;
     color: red;
 }
 textarea::placeholder{
-    color: #fff;
+    color:#fff
 }
-/* socials */
+/*socials*/
 .social{
     justify-content: center;
     padding-left: 10px;
-    padding-right: 10PX;
+    padding-right: 10px;
 }
+
